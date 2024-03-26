@@ -14,25 +14,25 @@ def mywriter(filename:str, mylist:list):
 
 def main():
     # read PERFORMANCE data
-    mydata = myreader('Student_Performance_Data.csv')
+    mydata = myreader('Data\\Student_Performance_Data.csv')
     print("STUDENT_PERFORMANCE_DATA")
     for i in range(0,29):
         print(mydata[i])
     print("=============================================================================================")
     # read DEPT data
-    mydata = myreader('Department_Information.csv')
+    mydata = myreader('Data\\Department_Information.csv')
     print("DEPARTMENT_DATA")
     for i in range(0,29):
         print(mydata[i])
     print("=============================================================================================")
     # read COUNCIL data
-    mydata = myreader('Student_Counceling_Information.csv')
+    mydata = myreader('Data\\Student_Counceling_Information.csv')
     print("STUDENT_COUNCELING_DATA")
     for i in range(0,29):
         print(mydata[i])
     print("=============================================================================================")
     # read EMPLOYEE data
-    mydata = myreader('Employee_Information.csv')
+    mydata = myreader('Data\\Employee_Information.csv')
     print("EMPLOYEE_INFORMATION")
     for i in range(0,29):
         print(mydata[i])
